@@ -41,6 +41,14 @@ export default function Home() {
                     alt="Southern Silage"
                     style={{ height: '200px', maxWidth: '100%', width: 'auto' }}
                 />
+                <div style={{
+                    marginTop: '15px',
+                    fontSize: '18px',
+                    color: '#2d5016',
+                    fontWeight: '500'
+                }}>
+                    21956 Southwind Road, Andalusia, AL 36421
+                </div>
             </header>
 
             {/* Photo Carousel - GREEN BACKGROUND, OVERLAPS LOGO */}
