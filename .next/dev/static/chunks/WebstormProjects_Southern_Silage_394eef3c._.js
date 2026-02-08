@@ -47,22 +47,42 @@ function Home() {
                 style: {
                     padding: '35px',
                     backgroundColor: '#fff',
-                    textAlign: 'center'
+                    textAlign: 'center',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    justifyContent: 'center',
+                    alignItems: 'center'
                 },
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$WebstormProjects$2f$Southern_Silage$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                    src: "/images/S.Silage.Logo.small.canvas.jpg",
-                    alt: "Southern Silage",
-                    style: {
-                        height: '200px',
-                        display: 'block',
-                        margin: '0 auto'
-                    }
-                }, void 0, false, {
-                    fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
-                    lineNumber: 36,
-                    columnNumber: 17
-                }, this)
-            }, void 0, false, {
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$WebstormProjects$2f$Southern_Silage$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                        src: "/images/S.Silage.Logo.small.canvas.jpg",
+                        alt: "Southern Silage",
+                        style: {
+                            height: '200px',
+                            maxWidth: '100%',
+                            width: 'auto'
+                        }
+                    }, void 0, false, {
+                        fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
+                        lineNumber: 40,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$WebstormProjects$2f$Southern_Silage$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        style: {
+                            marginTop: '5px',
+                            marginBottom: '20px',
+                            fontSize: '24px',
+                            color: '#2d5016',
+                            fontWeight: '500'
+                        },
+                        children: "21956 Southwind Road, Andalusia, AL 36421"
+                    }, void 0, false, {
+                        fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
+                        lineNumber: 45,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
                 lineNumber: 31,
                 columnNumber: 13
@@ -91,12 +111,12 @@ function Home() {
                         }
                     }, index, false, {
                         fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
-                        lineNumber: 52,
+                        lineNumber: 65,
                         columnNumber: 21
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
-                lineNumber: 44,
+                lineNumber: 57,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$WebstormProjects$2f$Southern_Silage$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -125,7 +145,7 @@ function Home() {
                                 children: "Contact Us"
                             }, void 0, false, {
                                 fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
-                                lineNumber: 85,
+                                lineNumber: 98,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$WebstormProjects$2f$Southern_Silage$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -138,7 +158,7 @@ function Home() {
                                         children: "Robert Waite:"
                                     }, void 0, false, {
                                         fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
-                                        lineNumber: 89,
+                                        lineNumber: 102,
                                         columnNumber: 25
                                     }, this),
                                     " ",
@@ -151,13 +171,13 @@ function Home() {
                                         children: "334-343-6213"
                                     }, void 0, false, {
                                         fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
-                                        lineNumber: 89,
+                                        lineNumber: 102,
                                         columnNumber: 56
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
-                                lineNumber: 88,
+                                lineNumber: 101,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$WebstormProjects$2f$Southern_Silage$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -170,7 +190,7 @@ function Home() {
                                         children: "Aarin Waite:"
                                     }, void 0, false, {
                                         fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
-                                        lineNumber: 92,
+                                        lineNumber: 105,
                                         columnNumber: 25
                                     }, this),
                                     " ",
@@ -183,13 +203,13 @@ function Home() {
                                         children: "251-230-1745"
                                     }, void 0, false, {
                                         fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
-                                        lineNumber: 92,
+                                        lineNumber: 105,
                                         columnNumber: 55
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
-                                lineNumber: 91,
+                                lineNumber: 104,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$WebstormProjects$2f$Southern_Silage$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -208,13 +228,13 @@ function Home() {
                                 children: "Visit us on Facebook"
                             }, void 0, false, {
                                 fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
-                                lineNumber: 94,
+                                lineNumber: 107,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
-                        lineNumber: 78,
+                        lineNumber: 91,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$WebstormProjects$2f$Southern_Silage$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -235,7 +255,7 @@ function Home() {
                                 children: "Products & Services"
                             }, void 0, false, {
                                 fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
-                                lineNumber: 118,
+                                lineNumber: 131,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$WebstormProjects$2f$Southern_Silage$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -250,109 +270,109 @@ function Home() {
                                         children: "• UpNorth Silage Bags"
                                     }, void 0, false, {
                                         fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
-                                        lineNumber: 127,
+                                        lineNumber: 140,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$WebstormProjects$2f$Southern_Silage$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: "• Net & Twine"
                                     }, void 0, false, {
                                         fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
-                                        lineNumber: 128,
+                                        lineNumber: 141,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$WebstormProjects$2f$Southern_Silage$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: "• Pit Covers"
                                     }, void 0, false, {
                                         fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
-                                        lineNumber: 129,
+                                        lineNumber: 142,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$WebstormProjects$2f$Southern_Silage$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: "• Inoculant"
                                     }, void 0, false, {
                                         fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
-                                        lineNumber: 130,
+                                        lineNumber: 143,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$WebstormProjects$2f$Southern_Silage$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: "• In-Line Bale Wrappers"
                                     }, void 0, false, {
                                         fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
-                                        lineNumber: 131,
+                                        lineNumber: 144,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$WebstormProjects$2f$Southern_Silage$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: "• Secure Covers"
                                     }, void 0, false, {
                                         fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
-                                        lineNumber: 132,
+                                        lineNumber: 145,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$WebstormProjects$2f$Southern_Silage$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: "• Meyer Boxes & Bodies"
                                     }, void 0, false, {
                                         fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
-                                        lineNumber: 133,
+                                        lineNumber: 146,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$WebstormProjects$2f$Southern_Silage$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: "• Sunfilm Wrap"
                                     }, void 0, false, {
                                         fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
-                                        lineNumber: 134,
+                                        lineNumber: 147,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$WebstormProjects$2f$Southern_Silage$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: "• Silage Baggers"
                                     }, void 0, false, {
                                         fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
-                                        lineNumber: 135,
+                                        lineNumber: 148,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$WebstormProjects$2f$Southern_Silage$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: "• Tatoma Mixers"
                                     }, void 0, false, {
                                         fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
-                                        lineNumber: 136,
+                                        lineNumber: 149,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$WebstormProjects$2f$Southern_Silage$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: "• Reinke Irrigation"
                                     }, void 0, false, {
                                         fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
-                                        lineNumber: 137,
+                                        lineNumber: 150,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$WebstormProjects$2f$Southern_Silage$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: "• K-Line Irrigation"
                                     }, void 0, false, {
                                         fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
-                                        lineNumber: 138,
+                                        lineNumber: 151,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$WebstormProjects$2f$Southern_Silage$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: "• CowCo"
                                     }, void 0, false, {
                                         fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
-                                        lineNumber: 139,
+                                        lineNumber: 152,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
-                                lineNumber: 121,
+                                lineNumber: 134,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
-                        lineNumber: 113,
+                        lineNumber: 126,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/WebstormProjects/Southern_Silage/app/page.tsx",
-                lineNumber: 72,
+                lineNumber: 85,
                 columnNumber: 13
             }, this)
         ]

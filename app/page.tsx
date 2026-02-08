@@ -43,8 +43,9 @@ export default function Home() {
                     style={{ height: '200px', maxWidth: '100%', width: 'auto' }}
                 />
                 <div style={{
-                    marginTop: '15px',
-                    fontSize: '18px',
+                    marginTop: '5px',
+                    marginBottom: '20px',
+                    fontSize: '24px',
                     color: '#2d5016',
                     fontWeight: '500'
                 }}>
