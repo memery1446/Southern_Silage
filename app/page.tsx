@@ -31,12 +31,15 @@ export default function Home() {
             <header style={{
                 padding: '35px',
                 backgroundColor: '#fff',
-                textAlign: 'center'
+                textAlign: 'center',
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center'
             }}>
                 <img
                     src="/images/S.Silage.Logo.small.canvas.jpg"
                     alt="Southern Silage"
-                    style={{ height: '200px', display: 'block', margin: '0 auto' }}
+                    style={{ height: '200px', maxWidth: '100%', width: 'auto' }}
                 />
             </header>
 
